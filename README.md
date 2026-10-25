@@ -8,19 +8,20 @@
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docker.com)
 [![Model Context Protocol](https://img.shields.io/badge/MCP-Anthropic_Ecosystem-8A2BE2?style=flat-square)](https://modelcontextprotocol.io/)
-[![Status](https://img.shields.io/badge/Seeking-Founding_Engineer_/_Systems_SWE-00E676?style=flat-square)](#-founder--recruiter-tldr)
+[![Status](https://img.shields.io/badge/Seeking-Founding_Engineer_/_Systems_SWE-00E676?style=flat-square)](#founder-tldr)
 
 <p align="center">
   <b>Building hardened runtime infrastructure, low-latency execution proxies, and sandbox isolation layers for autonomous AI agents.</b><br>
   <i>Obsessed with high-agency shipping, sub-millisecond systems performance, and zero-trust security boundaries.</i>
 </p>
 
-[Featured Systems](#-featured-systems) • [Open Source (YC Contributions)](#-open-source--ecosystem-contributions) • [Engineering Principles](#-engineering-philosophy) • [Tech Stack](#-technical-arsenal) • [Get in Touch](#-lets-build-together)
+[Featured Systems](#featured-systems) • [Open Source (YC Contributions)](#open-source) • [Engineering Principles](#philosophy) • [Tech Stack](#tech-stack) • [Get in Touch](#contact)
 
 ---
 
 </div>
 
+<a id="founder-tldr"></a>
 ## ⚡ Founder & Recruiter TL;DR
 
 If you are a **YC founder, CTO, or AI Lab Engineering Lead** looking for an engineer who operates with extreme ownership:
@@ -32,6 +33,7 @@ If you are a **YC founder, CTO, or AI Lab Engineering Lead** looking for an engi
 
 ---
 
+<a id="featured-systems"></a>
 ## 🛡️ Featured Systems
 
 ### 1. [MCP-Shield — Zero-Trust Security & Sandbox Gateway](https://github.com/kingroyale537/mcb-shield-)
@@ -80,6 +82,7 @@ pnpm install && pnpm test && pnpm demo
 
 ---
 
+<a id="open-source"></a>
 ## 🤝 Open Source & Ecosystem Contributions
 
 ### [E2B (YC S24)](https://github.com/e2b-dev/E2B) — Sandboxed Cloud Environments for AI
@@ -89,6 +92,7 @@ pnpm install && pnpm test && pnpm demo
 
 ---
 
+<a id="philosophy"></a>
 ## 🧠 Engineering Philosophy
 
 | Principle | How I Practice It |
@@ -101,6 +105,7 @@ pnpm install && pnpm test && pnpm demo
 
 ---
 
+<a id="tech-stack"></a>
 ## 🛠️ Technical Arsenal
 
 <div align="center">
@@ -117,17 +122,7 @@ pnpm install && pnpm test && pnpm demo
 
 ---
 
-## 📈 Activity & Impact
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=kingroyale537&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=238636&text_color=C9D1D9" alt="GitHub Stats" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kingroyale537&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" width="48%" />
-
-</div>
-
----
-
+<a id="contact"></a>
 ## 📬 Let's Build Together
 
 I am actively speaking with **YC founders, AI research labs, and early-stage infrastructure teams** looking for high-velocity engineers who can own critical systems from day zero.
