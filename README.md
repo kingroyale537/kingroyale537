@@ -92,6 +92,30 @@ pnpm install && pnpm test && pnpm demo
 
 ---
 
+### [GLiNER](https://github.com/urchade/GLiNER) — Zero-Shot Named Entity Recognition & Representation
+*High-throughput generalist bi-encoder NER for web-scale entity extraction.*
+- **Pull Request ([#404](https://github.com/urchade/GLiNER/pull/404))**: Resolved catastrophic 4–6 minute latency hang on short single-word inputs (Fixes [#401](https://github.com/urchade/GLiNER/issues/401)). Diagnosed erratic language misdetection in `StanzaWordsSplitter` triggering unprompted background model downloads, and introduced an early-exit guard with regression test coverage.
+
+---
+
+### [Dedupe.io](https://github.com/dedupeio/dedupe) — Accurate & Scalable Entity Resolution
+*The standard Python library for entity resolution, record linkage, and company deduplication.*
+- **Pull Request ([#1232](https://github.com/dedupeio/dedupe/pull/1232))**: Implemented `VectorType` for dense semantic embeddings (Sentence-Transformers/OpenAI) with cosine/euclidean distance comparators and LSH sign bit predicates for candidate blocking, alongside a high-throughput blocking benchmark suite.
+
+---
+
+### [RankLLM](https://github.com/castorini/rank_llm) — Neural Search Rerankers (UWaterloo IR)
+*Open-source toolkit for cross-encoder, listwise, and pointwise neural document reranking.*
+- **Pull Request ([#475](https://github.com/castorini/rank_llm/pull/475))**: Added `CrossEncoderReranker` supporting standard Hugging Face sequence classification models (`bge-reranker`, `ms-marco-MiniLM`) with multi-shape tensor handling and sigmoid score normalization; fixed Python 3.11+ module spec test mocks.
+
+---
+
+### [Ragas](https://github.com/vibrantlabsai/ragas) — Evaluation Framework for RAG & Retrieval Engines
+*Leading open-source framework for evaluating retrieval precision, recall, and agent tool execution.*
+- **Pull Request ([#3076](https://github.com/vibrantlabsai/ragas/pull/3076))**: Implemented deterministic, rank-aware IR metrics (`ContextNDCG@K`, `ContextMRR@K`, `ContextMAP@K`, `ContextHitRate@K`) to evaluate dense, sparse, and Reciprocal Rank Fusion (RRF) hybrid search retrievers without LLM-as-a-judge roundtrips.
+
+---
+
 <a id="philosophy"></a>
 ## 🧠 Engineering Philosophy
 
